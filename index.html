@@ -9,13 +9,24 @@
 
   <style>
     body {
-      background: #fff0f5 url('./wedding3background.jpg') no-repeat center center fixed;
-      background-size: cover;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      text-align: center;
-      padding: 50px 20px;
-      color: #ffffff;
-    }
+  background: url('./wedding3background.jpg') no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll; /* Mobile-friendly */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+  color: #ffffff;
+}
+.name-sevillana {
+  font-family: 'Sevillana', cursive;
+  font-size: 80px;
+  color: white;
+  -webkit-text-stroke: 1px gold; /* ← changed color here */
+  margin: 10px 0;
+}
+
 
     .circle-image {
       width: 250px;
@@ -44,8 +55,8 @@
     h1 {
       font-size: 32px;
       margin: 10px 0;
-      color: white;
-      -webkit-text-stroke: 1px black;
+      color: #ffffff;
+      -webkit-text-stroke: 1px gold;
       font-family: 'Sevillana', cursive;
     }
 
@@ -126,7 +137,7 @@
 <body>
 
   <div class="circle-image">
-    <img src="./wedding1.jpg" alt="Sijoy and Sherly">
+    <img src="./wedding1.png" alt="Sijoy and Sherly">
   </div>
 
   <h2>WE ARE GETTING MARRIED</h2>
@@ -142,28 +153,41 @@
     <div class="title">ABOUT US</div>
 
     <div class="circle-image">
-      <img src="./wedding4sijoy.jpg" alt="Sijoy Photo">
+      <img src="./wedding4sijoy.png" alt="Sijoy Photo">
     </div>
     <h1>SIJOY</h1>
     <div class="description">
-      <h1>Mrs. Tessy Joshi & Mr. Joshi AD</h1>
+      <h2>Mrs. Tessy Joshi & Mr. Joshi AD</h2>
       <h2>Anthikkatt House, Chittattukara PO, Thrissur</h2>
     </div>
 
     <div class="circle-image">
-      <img src="./wedding6sherly.jpg" alt="Sherly Photo">
+      <img src="./wedding6sherly.png" alt="Sherly Photo">
     </div>
     <h1>SHERLY</h1>
     <div class="description">
-      <h1>D/O Annie Antony & Late Antony KO</h1>
+      <h2>D/O Annie Antony & Late Antony KO</h2>
       <h2>Kuttikkatt House, Elthuruth PO, Thrissur</h2>
     </div>
   </div>
 
-  <!-- Event Details Section -->
+<!-- Event Details Section Betrothal -->
   <div class="event-details">
-    <h1>EVENT DETAILS</h1>
-    <h1>WEDDING</h1>
+    <h2>EVENT DETAILS</h2>
+    <h2>BETROTHAL</h2>
+    <h2>09/08/2025</h2>
+    <h2>12:00 PM</h2>
+    <h2>LITTLE FLOWER CHURCH</h2>
+    <h2>OLARIKKARA</h2>
+    <button class="map-button">
+      <a href="https://maps.app.goo.gl/d62KV8jmGWe2fexd6">LOCATION</a>
+    </button>
+  </div>
+
+  <!-- Event Details Section Wedding -->
+  <div class="event-details">
+   <!-- <h2>EVENT DETAILS</h2>  -->
+    <h2>WEDDING</h2>
     <h2>17/08/2025</h2>
     <h2>12:05 PM</h2>
     <h2>ST. SEBASTIAN CHURCH</h2>
